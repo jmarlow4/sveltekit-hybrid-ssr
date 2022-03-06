@@ -1,0 +1,8 @@
+{
+	"smallest": "0px",
+	"phone": "600px",
+	"tablet": "768px",
+	"laptop": "1024px",
+	"desktop": "1280px",
+	"full": "1536px"
+}
