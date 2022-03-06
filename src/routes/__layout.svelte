@@ -5,10 +5,14 @@
 	import Sidenav from '$lib/layout/sidenav/Sidenav.svelte';
 	import '../app.css';
 
+	import { fClient } from '$lib/fauna-client';
+
+	fClient.ping();
+
 	const links = [
 		{ name: 'Home', url: '/' },
 		{ name: 'App', url: '/app' },
-		{ name: 'Test', url: '/test' }
+		{ name: 'User test', url: '/324797447837581908' }
 	];
 </script>
 

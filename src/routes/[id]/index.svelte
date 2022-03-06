@@ -1,6 +1,4 @@
 <script lang="ts">
-	export let id: string;
-	console.log('has id:', id);
+	export let speaker: any;
+	console.log('has id:', speaker);
 </script>
-
-<h1>has ID: {id}</h1>
